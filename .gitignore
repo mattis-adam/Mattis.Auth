@@ -1,0 +1,70 @@
+## ------------------------------------------------------------
+## Secrets — never commit (repository is public)
+## ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+appsettings.*.local.json
+secrets.json
+
+## ------------------------------------------------------------
+## Build output
+## ------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+*.nupkg
+*.snupkg
+
+## ------------------------------------------------------------
+## Tests and coverage
+## ------------------------------------------------------------
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+
+## ------------------------------------------------------------
+## IDEs and editors
+## ------------------------------------------------------------
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code (keep shared settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## ------------------------------------------------------------
+## OS
+## ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## ------------------------------------------------------------
+## Misc
+## ------------------------------------------------------------
+*.log
+*.tmp
+*.swp
